@@ -1,2 +1,2 @@
 language = "java8"
-run = "mvn compile"
+run = "mvn test -Dtest=src/main/java/com/bsnbase/sdk/client/fabric/test/FabricTest#userRegister test"
